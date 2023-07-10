@@ -12,7 +12,7 @@ namespace BasicProgramsOn_Array
         {
             Console.WriteLine("....PROGRAMS ON ARRAY....");
 
-            Console.WriteLine("\n:DuplicateElements\n2:UniqueElements\n22:Default");
+            Console.WriteLine("\n:DuplicateElements\n2:UniqueElements\n3:FrequencyOfEachElement\n22:Default");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -30,6 +30,9 @@ namespace BasicProgramsOn_Array
                     break;
                 case 2:
                     UniqueElements.Elements();
+                    break;
+                case 3:
+                    FrequencyOfEachElement.Frequency();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
