@@ -11,6 +11,16 @@ namespace BasicProgramsOn_Array
         static void Main(string[] args)
         {
             Console.WriteLine("....PROGRAMS ON ARRAY....");
+            Console.WriteLine("How many elents to add into array");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] array = new int[n];
+            Console.WriteLine("storing elements into array");
+
+            for (int i = 0; i < n; i++)
+            {
+                array[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            CountOfDuplicateElements.Duplicate(array);
             Console.ReadLine();
         }
     }
