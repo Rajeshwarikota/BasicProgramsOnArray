@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountOfDuplicateElements.cs" />
+    <Compile Include="FindingMaximumandMinimum.cs" />
     <Compile Include="FrequencyOfEachElement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UniqueElements.cs" />
+    <Compile Include="WordReverse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
